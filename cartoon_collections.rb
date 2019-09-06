@@ -2,7 +2,7 @@ def roll_call_dwarves(array)
   i = 0
   index = array[i]
   while i < array.length do
-    array.each_with_index{|dwarf| puts dwarf}
+    array.each_with_index{|dwarf, index| puts index dwarf}
   end
 end
 
