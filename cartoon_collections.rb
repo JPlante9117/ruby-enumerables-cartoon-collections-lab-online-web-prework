@@ -14,5 +14,7 @@ def find_the_cheese(array)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  array.map.detect{|c| cheese_types.include?(c)}
+  array.map.detect{|c| cheese_types.include?(c)} #takes in an array and maps over it to detect
+                                                 #if any of the contents are the same as the 
+                                                 #contents included in cheese_types!
 end
