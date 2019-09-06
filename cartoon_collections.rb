@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
   hash = Hash.new
-  array.each_with_index{|dwarf, id| 
+  %w(array).each_with_index{|dwarf, id| 
   let hash[dwarf] = id 
   puts id dwarf}
 end
